@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ma6075707-blip/argocd.git
+    repoURL: https://github.com/ma6075707-blip/argo.git
     targetRevision: main
-    path: argo-cd
+    path: .
 
   destination:
     server: https://kubernetes.default.svc
