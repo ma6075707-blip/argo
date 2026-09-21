@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.27
+          image: moh001/shop-matger:latest 
           ports:
             - containerPort: 80
