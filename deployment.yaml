@@ -21,4 +21,4 @@ spec:
         - name: nginx
           image: moh001/shop-matger:latest 
           ports:
-            - containerPort: 80
+            - containerPort: 8070
